@@ -25,12 +25,12 @@ public:
         if(k >= prices.size()/2) return greedy(prices);
         int t[k][2];    // [2] 表示买入和卖出股票时最大利益的状态
         for(int i = 0;i < k;i++){
-             t[i][0] = -inf;    //买股票
-             t[i][1] = 0;
+             t[i][0] = -inf;        //初始化买入股票的最大利益
+             t[i][1] = 0;           //初始化卖出股票的最大利益
         }
         for(auto p:prices){
             t[0][0] = max(t[0][0],-p);  //买入股票的最大利润
-            t[0][1] = max(t[0][1],t[0][0] + p); //卖出股票
+            t[0][1] = max(t[0][1],t[0][0] + p); //卖出股票的最大利益
             for(int i = 1;i < k;i++){
                 t[i][0] = max(t[i][0],t[i-1][1] - p);
                 t[i][1] = max(t[i][1],t[i][0] + p);
