@@ -6,7 +6,7 @@ public:
         int sum = 0;
         for(auto p:prices){
             minn = min(minn,p); //找出前i-1天最小的股票价格
-            sum = max(sum,p-minn);  //找出最大利润
+            sum = max(sum,p-minn);  //比较卖出股票是否能获得更大利润
         }
         return sum;
     }
