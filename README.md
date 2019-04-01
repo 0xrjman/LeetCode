@@ -2,6 +2,7 @@ LeetCode
 ========
 No.  | Title  | C++  | Difficulity | Type
 ---- | ----- | ------  | ------ | --------
+0064  | [Unique Paths 不同路径1](https://leetcode-cn.com/problems/unique-paths/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0062.Unique%20Paths%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%841.cpp)  | Medium | DP
 0121  | [Best Time to Buy and Sell Stock 买卖股票的最佳时机1](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0121.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA1.cpp)  | Medium | Greedy + DP
 0122  | [Best Time to Buy and Sell Stock II 买卖股票的最佳时机2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA2.cpp)  | Medium | Greedy + DP
 0123  | [Best Time to Buy and Sell Stock III 买卖股票的最佳时机3](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0123.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA3.cpp)  | Hard | Greedy + DP
