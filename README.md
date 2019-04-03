@@ -1,5 +1,6 @@
 LeetCode
 ========
+>##题号0x开头的自编成集(竞赛题)，不是LeetCode的题
 No.  | Title  | C++  | Difficulity | Type
 ---- | ----- | ------  | ------ | --------
 0063  | [Unique Paths II 不同路径数2 with 障碍物](https://leetcode-cn.com/problems/unique-paths-ii/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0063.Unique%20Paths%20II%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%E6%95%B02%20with%20%E9%9A%9C%E7%A2%8D%E7%89%A9.cpp)  | Medium | DP
@@ -12,3 +13,4 @@ No.  | Title  | C++  | Difficulity | Type
 0704  | [Binary Search 二分查找](https://leetcode-cn.com/problems/binary-search/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0704.Binary%20Search%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.cpp)  | Easy | Binary Search
 0721  | [Accounts Merge 账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0721.Accounts%20Merge%E8%B4%A6%E6%88%B7%E5%90%88%E5%B9%B6.cpp)  | Medium | Union-find Sets
 0959  | [Regions Cut By Slashes_斜杠划分区域](https://leetcode-cn.com/problems/regions-cut-by-slashes/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0959.Regions%20Cut%20By%20Slashes_%E6%96%9C%E6%9D%A0%E5%88%92%E5%88%86%E5%8C%BA%E5%9F%9F.cpp) | Medium  | DFS
+0x01  | [k好数](https://leetcode-cn.com/problems/regions-cut-by-slashes/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0959.Regions%20Cut%20By%20Slashes_%E6%96%9C%E6%9D%A0%E5%88%92%E5%88%86%E5%8C%BA%E5%9F%9F.cpp) | Medium  | DFS
