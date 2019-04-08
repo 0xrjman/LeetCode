@@ -1,7 +1,7 @@
 LeetCode
 ========
 >type中的#表示：已知的LeetCode周赛次序
->>最下方以题号0x开头的,自编成集(一般为竞赛题)，不是LeetCode的题
+最下方以题号0x开头的,自编成集(一般为竞赛题)，不是LeetCode的题
 
 No.  | Title  | C++  | Difficulity | Type
 ---- | ----- | ------  | ------ | --------
