@@ -14,7 +14,5 @@ No.  | Title  | C++  | Difficulity | Type
 0704  | [Binary Search 二分查找](https://leetcode-cn.com/problems/binary-search/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0704.Binary%20Search%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.cpp)  | Easy | Binary Search
 0721  | [Accounts Merge 账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0721.Accounts%20Merge%E8%B4%A6%E6%88%B7%E5%90%88%E5%B9%B6.cpp)  | Medium | Union-find Sets
 0868  | [Binary Gap 二进制间距](https://leetcode-cn.com/problems/binary-gap/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0868.%E4%BA%8C%E8%BF%9B%E5%88%B6%E9%97%B4%E8%B7%9D.cpp)  | Easy | 位运算
-
-
 0959  | [Regions Cut By Slashes_斜杠划分区域](https://leetcode-cn.com/problems/regions-cut-by-slashes/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0959.Regions%20Cut%20By%20Slashes_%E6%96%9C%E6%9D%A0%E5%88%92%E5%88%86%E5%8C%BA%E5%9F%9F.cpp) | Medium  | DFS
 0x01  | [k好数](https://blog.csdn.net/qq_39913187/article/details/87219731) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x01.k%E5%A5%BD%E6%95%B0.cpp) | Medium  | DP(蓝桥杯)
