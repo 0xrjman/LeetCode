@@ -25,7 +25,7 @@ int sum(int i)//求和节点的值  sum(j) - sum(i);
 int main()
 {
     scanf("%d%d",&n,&m);
-    for(int i = 1;i <= n;i++){  //不能从0开始
+    for(int i = 1;i <= n;i++){  //不能从0开始，lowbit(0) = 0;
         int t;
         scanf("%d",&t);
         add_update(i,t);
