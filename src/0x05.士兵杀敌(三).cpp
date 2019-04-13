@@ -3,7 +3,7 @@
 #include <cmath>
 #include <algorithm>
 using namespace std;
-
+//算法对区间的范围控制非常严格,务必注意for循环的范围
 const int N = 100010;
 const int M = 20;
 static int n,m;
