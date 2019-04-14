@@ -31,3 +31,4 @@ No.  | Title  | C++  | Difficulity | Type
 0x04  | [士兵杀敌(二)](http://210.43.24.243/problem.php?id=1880) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x04.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%BA%8C).cpp) | Medium  | Binary_Index_Trees
 0x05  | [士兵杀敌(三)](http://210.43.24.243/problem.php?id=1883) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x05.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%B8%89).cpp) | Hard  | RMQ+ST+DP
 0x06  | [士兵杀敌(四)](http://210.43.24.243/problem.php?id=1886) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x06.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E5%9B%9B).cpp) | Medium  | Binary_Index_Trees
+0x07  | [士兵杀敌(五)](http://210.43.24.243/problem.php?id=1937) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x07.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%BA%94).cpp) | Medium  | 前缀数组
