@@ -1,5 +1,5 @@
 
-class Solution {
+class Solution {    //状态转移方程:f[i][j] = f[i-1][j] + f[i][j-1];
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
         int m = obstacleGrid.size();    //行数
