@@ -1,3 +1,23 @@
+class Solution {      
+public:
+    int ret = 0;    
+    void calc(vector<int>& nums,int n){ 
+        int f[n];
+        for(int i = 0;i < n;i++){
+            f[i] = 1;   
+            if(i > 0 && nums[i-1] < nums[i])    
+                f[i] = max(1,f[i-1] + 1);
+            if(f[i] > ret) ret = f[i];
+        }
+    }
+    int findLengthOfLCIS(vector<int>& nums) {
+        int n = nums.size();
+        if(n == 0) return 0;
+        calc(nums,n);   
+        return ret;
+    }
+};
+
 /****最长连续单调子序列(递增和递减)****/
 class Solution {      //不取消注释提交，则为最长连续递增子序列
 public:
@@ -11,6 +31,20 @@ public:
             if(f[i] > ret) ret = f[i];
         }
     }
+    /*
+    void calc(vector<int>& nums,int n){ //滚动数组思想
+        int f[2];
+        int old,now = 0;    //记录下标
+        for(int i = 0;i < n;i++){
+            old = now;      
+            now = 1 -old;   
+            f[now] = 1;
+            if(i > 0 && nums[i-1] < nums[i])    
+                f[now] = f[old] + 1;
+            if(f[now] > ret) ret = f[now];
+        }
+    }
+    */
     int findLengthOfLCIS(vector<int>& nums) {
         int n = nums.size();
         if(n == 0) return 0;
