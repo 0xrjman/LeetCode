@@ -2,7 +2,7 @@ LeetCode
 ========
 >可以将整个表的数据拷贝到excel进行筛选
 
->type中的#表示：已知的LeetCode周赛次序
+>type中的#表示：已知的LeetCode周赛次序，@表示 精选题
 
 >最下方以题号0x开头的,自编成集(一般为竞赛题)，不是LeetCode的题
 
@@ -18,19 +18,19 @@ No.  | Title  | C++  | Difficulity | Type
 0283  | [Move Zeroes 移动零](https://leetcode-cn.com/problems/move-zeroes/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0283.Move%20Zeroes%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.cpp)  | Easy | Mind
 0322  | [Coin Change 硬币兑换](https://leetcode-cn.com/problems/coin-change/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0322.Coin%20Change%20%E7%A1%AC%E5%B8%81%E5%85%91%E6%8D%A2.cpp)  | Medium | DP
 0575  | [Distribute Candies 分糖果](https://leetcode-cn.com/problems/distribute-candies/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0575.Distribute%20Candies%20%E5%88%86%E7%B3%96%E6%9E%9C.cpp)  | Easy | 水题
-0674  | [LCIS 最长连续递增子序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0674.Longest%20Continuous%20Increasing%20Subsequence%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97.cpp)  | Easy | DP
+0674  | [LCIS 最长连续递增子序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0674.Longest%20Continuous%20Increasing%20Subsequence%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97.cpp)  | Easy | DP+滚动数组(@)
 0704  | [Binary Search 二分查找](https://leetcode-cn.com/problems/binary-search/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0704.Binary%20Search%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.cpp)  | Easy | Binary Search
-0721  | [Accounts Merge 账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0721.Accounts%20Merge%E8%B4%A6%E6%88%B7%E5%90%88%E5%B9%B6.cpp)  | Medium | Union-find Sets
+0721  | [Accounts Merge 账户合并](https://leetcode-cn.com/problems/accounts-merge/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0721.Accounts%20Merge%E8%B4%A6%E6%88%B7%E5%90%88%E5%B9%B6.cpp)  | Medium | Union-find Sets(@)
 0868  | [Binary Gap 二进制间距](https://leetcode-cn.com/problems/binary-gap/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0868.%E4%BA%8C%E8%BF%9B%E5%88%B6%E9%97%B4%E8%B7%9D.cpp)  | Easy | 位运算(#93)
 0869  | [Reordered Power of 2 重新排序得到2的幂](https://leetcode-cn.com/problems/reordered-power-of-2/comments/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0869.Reordered%20Power%20of%202%20%E9%87%8D%E6%96%B0%E6%8E%92%E5%BA%8F%E5%BE%97%E5%88%B02%E7%9A%84%E5%B9%82.cpp)  | Medium | 排列+位运算(#93)
 0870  | [Advantage Shuffle 优势洗牌](https://leetcode-cn.com/problems/advantage-shuffle/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0870.Advantage%20Shuffle%20%E4%BC%98%E5%8A%BF%E6%B4%97%E7%89%8C.cpp)  | Medium | 田忌赛马(#93)
 0989  | [Add to Array-Form of Integer 数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0989.Add%20to%20Array-Form%20of%20Integer%20%E6%95%B0%E7%BB%84%E5%BD%A2%E5%BC%8F%E7%9A%84%E6%95%B4%E6%95%B0%E5%8A%A0%E6%B3%95.cpp)  | Easy | 大数加法(#123)
 0991  | [Broken Calculator 坏了的计算器](https://leetcode-cn.com/problems/broken-calculator/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0991.Broken%20Calculator%20%E5%9D%8F%E4%BA%86%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8.cpp)  | Medium | 贪心(#123)
-0959  | [Regions Cut By Slashes_斜杠划分区域](https://leetcode-cn.com/problems/regions-cut-by-slashes/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0959.Regions%20Cut%20By%20Slashes_%E6%96%9C%E6%9D%A0%E5%88%92%E5%88%86%E5%8C%BA%E5%9F%9F.cpp) | Medium  | DFS
+0959  | [Regions Cut By Slashes_斜杠划分区域](https://leetcode-cn.com/problems/regions-cut-by-slashes/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0959.Regions%20Cut%20By%20Slashes_%E6%96%9C%E6%9D%A0%E5%88%92%E5%88%86%E5%8C%BA%E5%9F%9F.cpp) | Medium  | DFS(@)
 0x01  | [k好数](https://blog.csdn.net/qq_39913187/article/details/87219731) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x01.k%E5%A5%BD%E6%95%B0.cpp) | Medium  | DP(蓝桥杯)
 0x02  | [Plumbing the depth of lake 探测湖水深度](http://210.43.24.243/problem.php?cid=1042&pid=6) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x02.Plumbing%20the%20depth%20of%20lake%20%E6%8E%A2%E6%B5%8B%E6%B9%96%E6%B0%B4%E6%B7%B1%E5%BA%A6.cpp) | Medium  | DFS+BFS(省赛#10)
 0x03  | [士兵杀敌(一)](http://nyoj.top/problem/108) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x03.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%B8%80).cpp) | Medium  | Binary_Index_Trees
 0x04  | [士兵杀敌(二)](http://210.43.24.243/problem.php?id=1880) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x04.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%BA%8C).cpp) | Medium  | Binary_Index_Trees
-0x05  | [士兵杀敌(三)](http://210.43.24.243/problem.php?id=1883) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x05.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%B8%89).cpp) | Hard  | RMQ+ST+DP
+0x05  | [士兵杀敌(三)](http://210.43.24.243/problem.php?id=1883) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x05.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%B8%89).cpp) | Hard  | RMQ+ST+DP(@)
 0x06  | [士兵杀敌(四)](http://210.43.24.243/problem.php?id=1886) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x06.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E5%9B%9B).cpp) | Medium  | Binary_Index_Trees
 0x07  | [士兵杀敌(五)](http://210.43.24.243/problem.php?id=1937) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x07.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%BA%94).cpp) | Medium  | 前缀数组
