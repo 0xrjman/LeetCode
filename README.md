@@ -8,8 +8,9 @@ LeetCode
 
 No.  | Title  | C++  | Difficulity | Type
 ---- | ----- | ------  | ------ | --------
+0062  | [Unique Paths 不同路径1](https://leetcode-cn.com/problems/unique-paths/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0062.Unique%20Paths%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%841.cpp)  | Medium | DP
 0063  | [Unique Paths II 不同路径数2 with 障碍物](https://leetcode-cn.com/problems/unique-paths-ii/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0063.Unique%20Paths%20II%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%E6%95%B02%20with%20%E9%9A%9C%E7%A2%8D%E7%89%A9.cpp)  | Medium | DP
-0064  | [Unique Paths 不同路径1](https://leetcode-cn.com/problems/unique-paths/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0062.Unique%20Paths%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%841.cpp)  | Medium | DP
+0064  | [Minimum Path Sum 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0064.Minimum%20Path%20Sum%20%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.cpp)  | Medium | DP+RollArr
 0091  | [Decode Ways 解码方法](https://leetcode-cn.com/problems/decode-ways/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0091.Decode%20Ways%20%E8%A7%A3%E7%A0%81%E6%96%B9%E6%B3%95%E6%95%B0.cpp)  | Medium | DP
 0121  | [Best Time to Buy and Sell Stock 买卖股票的最佳时机1](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/submissions/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0121.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA1.cpp)  | Medium | Greedy + DP
 0122  | [Best Time to Buy and Sell Stock II 买卖股票的最佳时机2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0122.Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA2.cpp)  | Medium | Greedy + DP
