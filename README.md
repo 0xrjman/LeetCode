@@ -37,3 +37,5 @@ No.  | Title  | C++  | Difficulity | Type
 0x05  | [士兵杀敌(三)](http://210.43.24.243/problem.php?id=1883) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x05.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%B8%89).cpp) | Hard  | RMQ+ST+DP(@)
 0x06  | [士兵杀敌(四)](http://210.43.24.243/problem.php?id=1886) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x06.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E5%9B%9B).cpp) | Medium  | Binary_Index_Trees
 0x07  | [士兵杀敌(五)](http://210.43.24.243/problem.php?id=1937) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x07.%E5%A3%AB%E5%85%B5%E6%9D%80%E6%95%8C(%E4%BA%94).cpp) | Medium  | 前缀数组
+0x08  | [Paint House 房屋染色](https://www.lintcode.com/problem/paint-house/description) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x08.Paint%20House%20%E6%88%BF%E5%B1%8B%E6%9F%93%E8%89%B2.cpp) | Medium  | DP+记录状态
+0x09  | [Paint House2 房屋染色2](https://www.lintcode.com/problem/paint-house-ii/description) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x09.Paint%20House2%20%E6%88%BF%E5%B1%8B%E6%9F%93%E8%89%B22.cpp) | Hard  | DP+次小值
