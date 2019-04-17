@@ -1,5 +1,5 @@
-class Solution {
-public:
+class Solution {    //f[i] = max(f[i-1],f[i-2] + nums[i-1]);
+public: //做法类似1，只是需要根据划分情况,寻找两个分区的最大值
     int rob(vector<int>& nums) {
         int n = nums.size();
         if(n == 0) return 0;
