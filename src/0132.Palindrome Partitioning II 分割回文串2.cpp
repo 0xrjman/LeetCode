@@ -1,4 +1,4 @@
-// 最少回文串
+//分割回文串2---DP+划分
 #include <iostream>
 #include <vector>
 using namespace std;
