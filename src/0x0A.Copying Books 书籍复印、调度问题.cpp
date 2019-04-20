@@ -1,8 +1,4 @@
-书籍复印、最佳调度问题---DP+划分--二维状态
-#include <iostream>
-#include <vector>
-using namespace std;
-//
+//书籍复印、最佳调度问题---DP+划分--二维状态
 class Solution {
 public:
     const int inf = 0x3f3f3f3f;
