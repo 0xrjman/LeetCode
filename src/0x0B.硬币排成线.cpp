@@ -17,6 +17,13 @@ public:
         return f[old];
     }
 };
+//通过DP找出规律(简单博弈)
+class Solution {
+public:
+    bool firstWillWin(int n) {
+        return n%3;
+    }
+};
 //正常开数组
 class Solution {
 public:
