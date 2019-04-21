@@ -9,8 +9,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int n,m;
-
 int buyTheGoods(vector<int> &bp,int m){
     int n = bp.size();
     if(!n || !m) return 0;
@@ -29,7 +27,7 @@ int buyTheGoods(vector<int> &bp,int m){
 int main()
 {
     ios::sync_with_stdio(0);
-    int t;
+    int n,m,t;
     cin >> t;
     while(t--){
         cin >> n >> m;
@@ -39,7 +37,7 @@ int main()
             cin >> temp;
             bp.push_back(temp);
         }
-        int ret = buyTheGoods(bp);
+        int ret = buyTheGoods(bp,m);
         cout << ret << endl;
     }
     return 0;
