@@ -50,3 +50,4 @@ No.  | Title  | C++  | Difficulity | Type
 0x0A  | [Copying Books 书籍复印_调度问题](https://www.lintcode.com/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x0A.Copying%20Books%20%E4%B9%A6%E7%B1%8D%E5%A4%8D%E5%8D%B0%E3%80%81%E8%B0%83%E5%BA%A6%E9%97%AE%E9%A2%98.cpp) | Hard  | DP+划分+二维状态
 0x0B  | [Coins in line1 硬币排成线1](https://www.lintcode.com/problem/coins-in-a-line/description) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x0B.%E7%A1%AC%E5%B8%81%E6%8E%92%E6%88%90%E7%BA%BF.cpp) | Medium  | DP+博弈
 0x10  | [01背包问题](https://www.lintcode.com/problem/backpack/description) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x10.01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.cpp) | Medium  | DP+背包
+0x15  | [05背包问题_物资调度](http://nyoj.top/problem/1249) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x15.05%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98_%E7%89%A9%E8%B5%84%E8%B0%83%E5%BA%A6.cpp) | Medium  | DP+背包+一维优化
