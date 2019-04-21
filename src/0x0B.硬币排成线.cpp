@@ -1,4 +1,23 @@
 //取石子(每次取1、2颗,先手没石子败)
+//滚动数组优化:
+class Solution {
+public:
+    bool firstWillWin(int n) {
+        if(!n) return false;
+        if(n == 1 || n == 2) return true;
+        bool f[2];
+        int old,now = 0;
+        f[0] = false;
+        f[1] = true;
+        for(int i = 2;i <= n;i++){
+            old = now;
+            now = 1-now;
+            f[old] = (f[old] == false) || (f[now] == false);
+        }
+        return f[old];
+    }
+};
+//正常开数组
 class Solution {
 public:
     bool firstWillWin(int n) {
