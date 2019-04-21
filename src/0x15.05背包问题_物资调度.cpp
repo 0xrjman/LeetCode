@@ -1,7 +1,3 @@
-//由于采用一维度数组，未保存先前状态
-//未完成本题的计算可获取物品的最大数量
-//找时间补充
-
 // 01背包+方案数+一维优化
 //状态转移方程:f[i][j] = f[i-1][j] + f[i-1][j-bp[i-1]]
 //滚动数组优化:f[now][j] = f[old][j] + f[old][j-bp[old]]
@@ -24,6 +20,7 @@ int buyTheGoods(vector<int> &bp,int m){
     }
     return f[m];
 }
+
 int main()
 {
     ios::sync_with_stdio(0);
