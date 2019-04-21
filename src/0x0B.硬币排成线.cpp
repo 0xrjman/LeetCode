@@ -5,14 +5,14 @@ public:
     bool firstWillWin(int n) {
         if(!n) return false;
         if(n == 1 || n == 2) return true;
-        bool f[2];
+        bool f[2];  //仅需记忆前两步状态即可
         int old,now = 0;
         f[0] = false;
         f[1] = true;
         for(int i = 2;i <= n;i++){
-            old = now;
+            old = now;  
             now = 1-now;
-            f[old] = (f[old] == false) || (f[now] == false);
+            f[old] = (f[old] == false) || (f[now] == false);    //更新状态    
         }
         return f[old];
     }
