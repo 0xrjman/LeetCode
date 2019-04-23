@@ -51,3 +51,4 @@ No.  | Title  | C++  | Difficulity | Type
 0x0B  | [Coins in line1 硬币排成线1](https://www.lintcode.com/problem/coins-in-a-line/description) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x0B.%E7%A1%AC%E5%B8%81%E6%8E%92%E6%88%90%E7%BA%BF.cpp) | Medium  | DP+博弈
 0x10  | [01背包问题](https://www.lintcode.com/problem/backpack/description) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x10.01%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.cpp) | Medium  | DP+背包
 0x15  | [05背包问题_物资调度](http://nyoj.top/problem/1249) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x15.05%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98_%E7%89%A9%E8%B5%84%E8%B0%83%E5%BA%A6.cpp) | Medium  | DP+背包+一维优化
+0x1A  | [八数码问题](http://acm.hdu.edu.cn/showproblem.php?pid=1043) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1A.%E5%85%AB%E6%95%B0%E7%A0%81%E9%97%AE%E9%A2%98.cpp) | Hard  | A*+Hash_Table
