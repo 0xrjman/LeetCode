@@ -54,4 +54,4 @@ No.  | Title  | C++  | Difficulity | Type
 0x15  | [05背包问题_物资调度](http://nyoj.top/problem/1249) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x15.05%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98_%E7%89%A9%E8%B5%84%E8%B0%83%E5%BA%A6.cpp) | Medium  | DP+背包+一维优化
 0x1A  | [八数码问题](http://acm.hdu.edu.cn/showproblem.php?pid=1043) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1A.%E5%85%AB%E6%95%B0%E7%A0%81%E9%97%AE%E9%A2%98.cpp) | Hard  | A*+Hash_Table
 0x1B  | [过山车](http://acm.hdu.edu.cn/showproblem.php?pid=2063) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1B.%E8%BF%87%E5%B1%B1%E8%BD%A6.cpp) | Hard  | 匈牙利算法
-0x1C  | [Swap 对角线元素匹配](http://acm.hdu.edu.cn/showproblem.php?pid=2819) | [C++](https://github.com/306714577/LeetCode/blob/master/src/Swap%20%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E5%8C%B9%E9%85%8D.cpp) | Hard  | 匈牙利算法 + 矩阵
+0x1C  | [Swap 对角线元素匹配](http://acm.hdu.edu.cn/showproblem.php?pid=2819) | [C++](https://github.com/306714577/LeetCode/blob/master/src/Swap%20%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E5%8C%B9%E9%85%8D.cpp) | Hard  | 匈牙利算法+矩阵
