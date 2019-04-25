@@ -42,7 +42,7 @@ int main()
             scanf("%d%d%d%d",&edges[i].x,&edges[i].y,&edges[i].w,&edges[i].f);
             if(edges[i].f == 1) edges[i].w=0; // 若道路已修建，则费用为0
         }
-        sort(edges,edges + n*(n-1)/2);  //重载结构体 '<' 运算符,按边长升序排序
+        sort(edges,edges + n*(n-1)/2);  //重载结构体 '<' 运算符,按权重升序排序
         int ret = 0;
         for(int i=0;i<n*(n-1)/2;i++){
             if(merge(edges[i].x,edges[i].y)){   //产生合并
