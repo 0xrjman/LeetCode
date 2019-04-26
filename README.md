@@ -59,4 +59,6 @@ No.  | Title  | C++  | Difficulity | Type
 0x1A  | [八数码问题](http://acm.hdu.edu.cn/showproblem.php?pid=1043) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1A.%E5%85%AB%E6%95%B0%E7%A0%81%E9%97%AE%E9%A2%98.cpp) | Hard  | A*+Hash_Table
 0x1B  | [过山车](http://acm.hdu.edu.cn/showproblem.php?pid=2063) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1B.%E8%BF%87%E5%B1%B1%E8%BD%A6.cpp) | Hard  | 匈牙利算法
 0x1C  | [Swap 对角线元素匹配](http://acm.hdu.edu.cn/showproblem.php?pid=2819) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1C.Swap%20%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E5%8C%B9%E9%85%8D.cpp) | Hard  | 匈牙利算法+矩阵
-0x1D  | [继续畅通工程](http://acm.hdu.edu.cn/showproblem.php?pid=1879) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1D.%E7%BB%A7%E7%BB%AD%E7%95%85%E9%80%9A%E5%B7%A5%E7%A8%8B.cpp) | Medium  | 最小生成树 + Krustra
+0x1D  | [继续畅通工程](http://acm.hdu.edu.cn/showproblem.php?pid=1879) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1D.%E7%BB%A7%E7%BB%AD%E7%95%85%E9%80%9A%E5%B7%A5%E7%A8%8B.cpp) | Medium  | Krustra算法
+0x1E  | [畅通工程续](http://acm.hdu.edu.cn/showproblem.php?pid=1874) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1E.%E7%95%85%E9%80%9A%E5%B7%A5%E7%A8%8B%E7%BB%AD.cpp) | Medium  | SPFA算法+Dijkstra算法
+0x20  | [Wormholes 虫洞](http://poj.org/problem?id=3259) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x20.Wormholes%20%E8%99%AB%E6%B4%9E.cpp) | Medium  | SPFA算法+判断负权环
