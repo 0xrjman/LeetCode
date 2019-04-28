@@ -62,3 +62,4 @@ No.  | Title  | C++  | Difficulity | Type
 0x1D  | [继续畅通工程](http://acm.hdu.edu.cn/showproblem.php?pid=1879) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1D.%E7%BB%A7%E7%BB%AD%E7%95%85%E9%80%9A%E5%B7%A5%E7%A8%8B.cpp) | Medium  | Krustra算法
 0x1E  | [畅通工程续](http://acm.hdu.edu.cn/showproblem.php?pid=1874) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x1E.%E7%95%85%E9%80%9A%E5%B7%A5%E7%A8%8B%E7%BB%AD.cpp) | Medium  | SPFA算法+Dijkstra算法
 0x20  | [Wormholes 虫洞](http://poj.org/problem?id=3259) | [C++](https://github.com/306714577/LeetCode/blob/master/src/0x20.Wormholes%20%E8%99%AB%E6%B4%9E.cpp) | Medium  | SPFA算法+判断负权环
+0x21  | [山区修路](http://xyoj.xynu.edu.cn/problem.php?id=2932) | [C++](https://github.com/306714577/LeetCode/blob/master/src/Dynamic%20Programming/0x21.%E5%B1%B1%E5%8C%BA%E4%BF%AE%E8%B7%AF.cpp) | Hard  | DP+序列+记录状态(赛题#11)
