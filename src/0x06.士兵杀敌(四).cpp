@@ -38,7 +38,6 @@ int main()
             add_update(i,k);       //更新区间[i,n]
             add_update(j+1,-k);    //减去超出区间的更新[j+1.n] 
         }else continue;
-
     }
     return 0;
 }
