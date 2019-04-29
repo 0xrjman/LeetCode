@@ -1,4 +1,9 @@
 //找球号(二)----Hash_Table
+//head数组是每个哈希值(hashcode/特征值)的链表头指针，next数组就是链表的next指针
+//每个hashcode(key)存在一个链表,用next数组作索引指向具有相同key的元素
+//head作为头指针,对每一个hashcode,存储它的头元素(此处采用最后进入链表的元素)
+//hash表存储元素的原始数值,通过判断hash[head[key]] == m?即是否有相应哈希值的链表元素与m匹配
+//得到哈希表中是否存在某个元素
 #include<stdio.h>
 #include<string.h>
 const int N =1000002;
@@ -8,10 +13,10 @@ static int top;
 //添加链表元素
 void add(int m){
     int key = m % fib;      //球 m 对应的特征值
-    next[top] = head[key];    //next[0] =  head[key] = -1;
-    head[key] = top;  //head[key] = 0;
-    hash[top] = m;    //hash[0] = 球m;
-    top++;  //top = 1;
+    next[top] = head[key];  //当前hashcode链表所含元素的索引数组  
+    head[key] = top;        //记录当前hashcode链表的头元素为top
+    hash[top] = m;          //记录当前输入元素的原始数值
+    top++;                  //入表序号
 }
 //查询元素
 bool query(int m){
@@ -47,8 +52,4 @@ int main(){
     }
     return 0;
 }
-//head数组是每个哈希值(hashcode/特征值)的链表头指针，next数组就是链表的next指针
-//每个hashcode(key)存在一个链表,用next数组作索引指向具有相同key的元素
-//head作为头指针,对每一个hashcode,存储它的头元素(此处采用最后进入链表的元素)
-//hash表存储元素的原始数值,通过判断hash[head[key]] == m?即是否有相应哈希值的链表元素与m匹配
-//得到哈希表中是否存在某个元素
+
