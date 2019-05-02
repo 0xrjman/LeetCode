@@ -10,6 +10,7 @@ LeetCode
 
 No.  | Title  | C++  | Difficulity | Type 
 ---- |:-----:| ------  |:------:| --------  
+0014  | [Longest Common Prefix 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/STL/0014.Longest%20Common%20Prefix%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.cpp)  | Easy | STL+String
 0062  | [Unique Paths 不同路径1](https://leetcode-cn.com/problems/unique-paths/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/Dynamic%20Programming/0062.Unique%20Paths%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%841.cpp)  | Medium | DP+坐标
 0063  | [Unique Paths II 不同路径数2 with 障碍物](https://leetcode-cn.com/problems/unique-paths-ii/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/Dynamic%20Programming/0063.Unique%20Paths%20II%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%E6%95%B02%20with%20%E9%9A%9C%E7%A2%8D%E7%89%A9.cpp)  | Medium | DP+坐标
 0064  | [Minimum Path Sum 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | [C++](https://github.com/306714577/LeetCode/blob/master/src/Dynamic%20Programming/0064.Minimum%20Path%20Sum%20%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.cpp)  | Medium | DP+坐标+RollArr
