@@ -21,6 +21,7 @@ public:
         if(rank[x] > rank[y]) bb[y] = x;   //如果x的优先级高
         else bb[x] = y;                     //如果y的优先级高
     }
+
     //账户合并
     vector<vector<string> > accountsMerge(vector<vector<string>>& accounts) {
         vector<vector<string> > reaccounts;  //返回合并后的账户集

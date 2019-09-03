@@ -9,7 +9,7 @@ public:
         string com; //构造后为 ""
         for(int j = 0;j < minn;j++){
             vector<string>::iterator i = strs.begin();  
-            char c = (*i)[j];
+            char c = (*i)[j];   //获取第一个字符串的第j个字符
             while(i < strs.end()){  //遍历,判断是非具有相同的c 
                 if(c == (*i)[j]) i++;
                 else return com;    //字符不同,返回结果
